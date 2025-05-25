@@ -25,6 +25,7 @@
     --white:hsl(0, 0%, 100%);
     --lightGray:hsl(0, 0%, 42%);
     --darkGray:hsl(0, 0%, 7%);
+    --blue:hsl(228, 45%, 44%);
 }
 
 *{
@@ -45,7 +46,7 @@ main{
     margin: 12rem auto 1rem;
     padding: 1.5rem;
     width: 24rem;
-    height: 32rem;
+    height: 33rem;
     border-radius: 5%/4%;
     border: 1px solid var(--darkGray);
     box-shadow: 0.5rem 0.5rem var(--darkGray);
@@ -98,6 +99,7 @@ h1:hover{
         font-family: 'Figtree';
         font-weight: normal;
     width: 97%;
+    line-height: 1.5rem;
 }
 
 #aboutAuthor{
@@ -115,6 +117,20 @@ h1:hover{
 #authorName{
     font-family: 'Figtree';
     font-weight: bold;
+}
+
+.attribution{
+    color: var(--darkGray);
+    text-align: center;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color:var(--blue);
 }
 
 @media screen and (max-width: 375px) {
